@@ -5640,8 +5640,10 @@ textarea.w-select {
 .sectiune-cheie.home1 {
     height: 80vh;
     margin-top: 50px;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.91)), url("Elevate-Banner.png");
-    background-position: 0px 0px, 50% 50%;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.91)), url("arts.png");
+    background-position: 50% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-size: auto, contain;
 }
 
@@ -6109,7 +6111,7 @@ textarea.w-select {
     justify-content: center;
     align-items: center;
     background-color: #000;
-    background-image: url("https://assets.website-files.com/600e79d42eab063f0504b711/60ca01005dced51045e5f942_Captura%CC%86%20de%20ecran%20din%202021-06-16%20la%2016.20.541.jpg");
+    background-image: url("Elevate-Banner.png");
     background-position: 50% 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -12724,7 +12726,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
         font-weight: 400;
     }
 
-    .link-block-8 {
+    .link-block-8,.sectiune-cheie.home1 {
         height: 60vh;
         margin-top: -100px;
         background-position: 50% 100%;
