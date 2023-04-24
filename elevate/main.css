@@ -875,9 +875,7 @@ textarea.w-select {
     .w-hidden-main {
         display: inherit !important
     }
-    .div-block-223.final {
-        display: none;
-    }
+
     .w-hidden-medium {
         display: inherit !important
     }
@@ -4745,7 +4743,7 @@ textarea.w-select {
     display: flex;
     overflow: visible;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     padding-right: 12vw;
     padding-bottom: 30px;
     padding-left: 12vw;
@@ -4940,7 +4938,7 @@ textarea.w-select {
 .footer-container {
     display: flex;
     height: 100%;
-    padding-top: 0px;
+    padding-top: 40px;
     padding-bottom: 40px;
     align-items: center;
     align-self: flex-start;
@@ -5642,10 +5640,9 @@ textarea.w-select {
 .sectiune-cheie.home1 {
     height: 80vh;
     margin-top: 50px;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.91)), url("Elevate51.png");
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.91)), url("Elevate-Banner.png");
     background-position: 0px 0px, 50% 50%;
     background-size: auto, contain;
-    background-repeat: no-repeat;
 }
 
 .sectiune-cheie.home2 {
@@ -6112,7 +6109,7 @@ textarea.w-select {
     justify-content: center;
     align-items: center;
     background-color: #000;
-    background-image: url("sergio.jpg");
+    background-image: url("https://assets.website-files.com/600e79d42eab063f0504b711/60ca01005dced51045e5f942_Captura%CC%86%20de%20ecran%20din%202021-06-16%20la%2016.20.541.jpg");
     background-position: 50% 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -6348,7 +6345,7 @@ textarea.w-select {
     z-index: 0;
     overflow: hidden;
     width: 100%;
-    height: 100%;
+    height: 660px;
 }
 
 .subtitlu-imagine {
@@ -6419,7 +6416,7 @@ textarea.w-select {
     z-index: 0;
     display: flex;
     overflow: visible;
-    height: 100%;
+    height: 450vh;
     margin-right: auto;
     margin-left: auto;
     padding-top: 0px;
@@ -8857,7 +8854,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     }
 
     .containere.s1._2 {
-        margin-top: 0px;
+        margin-top: 270px;
     }
 
     .linie-text-imagine {
@@ -8885,7 +8882,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     }
 
     .seciune-proiecte-2 {
-        height: 100%;
+        height: 450vh;
         justify-content: flex-start;
     }
 
@@ -9116,7 +9113,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     }
 
     .seciune-studii-de-caz {
-        height: 100%;
+        height: 450vh;
         justify-content: flex-start;
     }
 
@@ -9493,7 +9490,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     }
 
     .containere.s1._2 {
-        margin-top: 0px;
+        margin-top: 200px;
     }
 
     .descriere-imagine.case {
@@ -9501,7 +9498,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     }
 
     .seciune-proiecte-2 {
-        height: 100%;
+        height: 450vh;
         justify-content: flex-start;
     }
 
@@ -9718,7 +9715,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     }
 
     .seciune-studii-de-caz {
-        height: 100%;
+        height: 450vh;
         justify-content: flex-start;
     }
 
@@ -10006,7 +10003,6 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
         position: static;
     }
 
-   
     .main-2 {
         display: block;
         width: 100%;
@@ -11093,9 +11089,12 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     .block-brands---mobile {
         display: block;
     }
+
     .section1.hero {
-        display: none;
-     }
+        height: 120vh;
+        max-height: 120vh;
+    }
+
     .despre-text {
         width: 0px;
         height: 63px;
@@ -12254,7 +12253,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
 
     .footer-3 {
         width: 100vw;
-        height: 100%;
+        height: 100vh;
         flex-direction: column;
     }
 
@@ -12327,7 +12326,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     .footer-container {
         width: 100%;
         height: 33%;
-        margin-top: 0px;
+        margin-top: 40px;
         margin-bottom: 40px;
         justify-content: center;
         align-items: flex-start;
@@ -12486,7 +12485,11 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     }
 
     .section1.hero {
-       display: none;
+        overflow: hidden;
+        height: 125vh;
+        max-height: 130vh;
+        padding-top: 15%;
+        padding-bottom: 15%;
     }
 
     .despre-text {
@@ -12804,7 +12807,6 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     }
 
     .div-block-223 {
-        display: none;
         display: flex;
         width: 40vh;
         height: 60vh;
@@ -12814,7 +12816,8 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     }
 
     .div-block-223.final {
-        display: none;
+        height: 30vh;
+        min-height: 30px;
     }
 
     .stanga-imagine {
@@ -12839,7 +12842,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
 
     .containere.s1 {
         width: 440px;
-        height: 100%;
+        height: 160vh;
         margin-bottom: 0px;
         flex-direction: column;
         justify-content: center;
@@ -12849,13 +12852,13 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
 
     .containere.s1._2 {
         display: flex;
-        height: 100%;
-        margin-top: 0;
+        height: 160vh;
+        margin-top: 400px;
         justify-content: center;
     }
 
     .containere.s1._2.f {
-        height: 100%;
+        height: 150vh;
     }
 
     .linie-text-imagine {
@@ -12868,7 +12871,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     }
 
     .seciune-proiecte-2 {
-        height: 100%;
+        height: 550vh;
         flex-direction: column;
         align-items: center;
     }
