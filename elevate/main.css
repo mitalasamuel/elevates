@@ -11093,8 +11093,9 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     }
 
     .section1.hero {
-        height: 120vh;
-        max-height: 120vh;
+        /* height: 120vh;
+        max-height: 120vh; */
+        display: none;
     }
 
     .despre-text {
@@ -12487,11 +12488,12 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     }
 
     .section1.hero {
-        overflow: hidden;
+        /* overflow: hidden;
         height: 125vh;
         max-height: 130vh;
         padding-top: 15%;
-        padding-bottom: 15%;
+        padding-bottom: 15%; */
+        display: none;
     }
 
     .despre-text {
