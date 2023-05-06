@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/31a8fa43969d286817faaa986794fe59?family=Konnect+ExtraBold);
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -299,7 +301,7 @@ html.w-mod-touch * {
 .w-button {
     display: inline-block;
     padding: 9px 15px;
-    background-color: #3898EC;
+    background-color: #FFF2D7;
     color: white;
     border: 0;
     line-height: inherit;
@@ -479,7 +481,7 @@ label {
     color: #333333;
     vertical-align: middle;
     background-color: #ffffff;
-    border: 1px solid #cccccc
+    border: 1px solid #ffffff
 }
 
 .w-input:-moz-placeholder,
@@ -505,7 +507,7 @@ label {
 
 .w-input:focus,
 .w-select:focus {
-    border-color: #3898EC;
+    border-color: #FFF2D7;
     outline: 0
 }
 
@@ -517,7 +519,7 @@ fieldset[disabled] .w-input,
 fieldset[disabled] .w-select {
     cursor: not-allowed
 }
-
+/* 
 .w-input[disabled]:not(.w-input-disabled),
 .w-select[disabled]:not(.w-input-disabled),
 .w-input[readonly],
@@ -525,16 +527,16 @@ fieldset[disabled] .w-select {
 fieldset[disabled]:not(.w-input-disabled) .w-input,
 fieldset[disabled]:not(.w-input-disabled) .w-select {
     background-color: #eeeeee
-}
+} */
 
 textarea.w-input,
 textarea.w-select {
     height: auto
 }
-
+/* 
 .w-select {
     background-color: #f3f3f3
-}
+} */
 
 .w-select[multiple] {
     height: auto
@@ -619,7 +621,7 @@ textarea.w-select {
     cursor: pointer;
     margin: 0;
     padding: 8px 12px;
-    border: 1px solid #cccccc;
+    border: 1px solid #ffffff;
     background-color: #fafafa
 }
 
@@ -629,7 +631,7 @@ textarea.w-select {
     justify-content: space-between;
     margin: 0;
     padding: 8px 9px 8px 11px;
-    border: 1px solid #cccccc;
+    border: 1px solid #ffffff;
     background-color: #fafafa
 }
 
@@ -673,7 +675,7 @@ textarea.w-select {
     cursor: pointer;
     margin: 0;
     padding: 8px 12px;
-    border: 1px solid #cccccc;
+    border: 1px solid #ffffff;
     background-color: #fafafa
 }
 
@@ -2230,10 +2232,10 @@ textarea.w-select {
     border-bottom-width: 1px;
     border-left-width: 1px;
     border-right-width: 1px;
-    border-top-color: #ccc;
-    border-bottom-color: #ccc;
-    border-left-color: #ccc;
-    border-right-color: #ccc;
+    /* border-top-color: #fff;
+    border-bottom-color: #fff;
+    border-left-color: #fff;
+    border-right-color: #fff; */
     border-top-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
@@ -2247,20 +2249,20 @@ textarea.w-select {
 }
 
 .w-checkbox-input--inputType-custom.w--redirected-checked {
-    background-color: #3898ec;
-    border-top-color: #3898ec;
-    border-bottom-color: #3898ec;
-    border-left-color: #3898ec;
-    border-right-color: #3898ec;
+    /* background-color: #FFF2D7;
+    border-top-color: #FFF2D7;
+    border-bottom-color: #FFF2D7;
+    border-left-color: #FFF2D7;
+    border-right-color: #FFF2D7; */
     background-image: url(https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+/* 
 .w-checkbox-input--inputType-custom.w--redirected-focus {
-    box-shadow: 0px 0px 3px 1px #3898ec;
-}
+    box-shadow: 0px 0px 3px 1px #FFF2D7;
+} */
 
 .wrapper {
     position: relative;
@@ -2530,7 +2532,7 @@ textarea.w-select {
 
 .h2 {
     margin-top: 10px;
-    font-family: 'Graphik web', sans-serif;
+    font-family: "Konnect ExtraBold";
     color: #000;
     font-size: 3em;
     line-height: 60px;
@@ -2576,7 +2578,7 @@ textarea.w-select {
     justify-content: center;
     align-items: center;
     opacity: 0;
-    font-family: 'Graphik web', sans-serif;
+    font-family: "Konnect ExtraBold";
     color: #000;
     font-size: 1.25rem;
     line-height: 1.6em;
@@ -4413,7 +4415,7 @@ textarea.w-select {
     font-size: 12px;
     line-height: 40px;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: -2px;
 }
 
 .form_error_paragraph {
@@ -4483,9 +4485,9 @@ textarea.w-select {
     padding-left: 8px;
     border-style: none none solid;
     border-bottom-width: 2px;
-    border-bottom-color: #ebecf0;
+    border-bottom-color: #FFF2D7;
     opacity: 0.5;
-    color: #ebecf0;
+    color: #FFF2D7;
     font-size: 18px;
     line-height: 40px;
     font-weight: 300;
@@ -4493,9 +4495,9 @@ textarea.w-select {
 
 .form05_input:focus {
     border-bottom-width: 2px;
-    border-bottom-color: #7540ee;
+    border-bottom-color: #FFF2D7;
     opacity: 1;
-    color: #7540ee;
+    color: #FFF2D7;
 }
 
 .form05_input::-moz-placeholder {
@@ -5531,7 +5533,7 @@ textarea.w-select {
     font-family: Graphik, sans-serif;
     color: #e3e3e3;
     font-size: 11px;
-    letter-spacing: 2px;
+    letter-spacing: .2px;
 }
 
 .subtitlu-sectiune.home1 {
@@ -5689,7 +5691,7 @@ textarea.w-select {
     font-family: Graphik, sans-serif;
     color: #b0b0b0;
     font-size: 11px;
-    letter-spacing: 2px;
+    letter-spacing: .2px;
 }
 
 .link-block-7 {
@@ -5812,7 +5814,7 @@ textarea.w-select {
 .despre-text.home2 {
     width: 470px;
     height: 170px;
-    font-family: 'Graphik web', sans-serif;
+    font-family: "Konnect ExtraBold";
     color: #000;
     font-size: 42px;
     line-height: 54px;
@@ -6066,7 +6068,7 @@ textarea.w-select {
 .text {
     position: static;
     max-width: 380px;
-    font-family: 'Graphik web', sans-serif;
+    font-family: "Konnect ExtraBold";
     color: #fff;
     font-size: 20px;
     line-height: 36px;
@@ -6106,7 +6108,7 @@ textarea.w-select {
     justify-content: center;
     align-items: center;
     background-color: #000;
-    background-image: url("Elevate-Banner.png");
+    background-image: url("Members.png");
     background-position: 50% 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -6143,7 +6145,8 @@ textarea.w-select {
 .fade-up {
     position: relative;
     z-index: 1;
-    font-family: Neuzeitgrolig, sans-serif;
+    font-family: "Konnect ExtraBold";
+    /* font-family: Neuzeitgrolig, sans-serif; */
     color: #fff;
     font-size: 25vw;
     font-weight: 300;
@@ -6446,7 +6449,7 @@ textarea.w-select {
     font-size: 11px;
     line-height: 13px;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: .2px;
 }
 
 .c2-2 {
@@ -6573,7 +6576,7 @@ textarea.w-select {
     color: #4253ff;
     font-size: 72px;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: -2px;
 }
 
 .slider-section {
@@ -6615,7 +6618,7 @@ textarea.w-select {
     color: #fff;
     font-size: 11px;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: .2px;
 }
 
 .heading-6 {
@@ -6755,7 +6758,7 @@ textarea.w-select {
     font-size: 12px;
     line-height: 2em;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: -2px;
 }
 
 .nav-social-address.head {
@@ -6948,7 +6951,7 @@ textarea.w-select {
     font-family: Averta, sans-serif;
     font-size: 14px;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: .2px;
     text-transform: uppercase;
 }
 
@@ -6974,11 +6977,11 @@ textarea.w-select {
 .menu-item-text {
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: 'Graphik web', sans-serif;
+    font-family: "Konnect ExtraBold";
     font-size: 45px;
     line-height: 1em;
     font-weight: 200;
-    letter-spacing: 1px;
+    letter-spacing: -2px;
 }
 
 ._w-nav-social-media-link {
@@ -7087,10 +7090,10 @@ textarea.w-select {
 }
 
 .menu-item-number {
-    font-family: 'Graphik web', sans-serif;
+    font-family: "Konnect ExtraBold";
     font-size: 0.8em;
     font-weight: 200;
-    letter-spacing: 1px;
+    letter-spacing: -2px;
 }
 
 ._w-nav-menu-btn {
@@ -7123,7 +7126,7 @@ textarea.w-select {
     position: relative;
     font-size: 0.9em;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: -2px;
     text-transform: uppercase;
 }
 
@@ -7214,7 +7217,7 @@ textarea.w-select {
 
 .text-block-8 {
     position: static;
-    font-family: 'Graphik web', sans-serif;
+    font-family: "Konnect ExtraBold";
     font-size: 16px;
     line-height: 1.6em;
     font-weight: 200;
@@ -7257,7 +7260,7 @@ textarea.w-select {
     color: hsla(0, 0%, 100%, 0.5);
     font-size: 11px;
     font-weight: 200;
-    letter-spacing: 2px;
+    letter-spacing: .2px;
 }
 
 .div-block-22 {
@@ -7268,7 +7271,7 @@ textarea.w-select {
     position: static;
     padding-right: 40px;
     padding-left: 5%;
-    font-family: 'Graphik web', sans-serif;
+    font-family: "Konnect ExtraBold";
     font-size: 30px;
     line-height: 1.3em;
     font-weight: 200;
@@ -7452,7 +7455,7 @@ textarea.w-select {
     font-size: 15px;
     line-height: 27px;
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: .2px;
     text-transform: uppercase;
 }
 
@@ -7501,7 +7504,7 @@ textarea.w-select {
     font-size: 10px;
     line-height: 10px;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: -2px;
     text-transform: uppercase;
 }
 
@@ -7516,7 +7519,7 @@ textarea.w-select {
     font-size: 10px;
     line-height: 20px;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: -2px;
     text-transform: uppercase;
 }
 
@@ -7549,7 +7552,7 @@ textarea.w-select {
 }
 
 .copy-section-title.howwe.sdc {
-    font-family: 'Graphik web', sans-serif;
+    font-family: "Konnect ExtraBold";
     color: #fff;
     font-size: 50px;
     font-weight: 200;
@@ -7705,7 +7708,7 @@ textarea.w-select {
 
 .text-block-22 {
     font-family: Graphik, sans-serif;
-    color: #5b3acc;
+    color: #1D1A17 ;
     font-weight: 400;
 }
 
@@ -7753,7 +7756,7 @@ textarea.w-select {
     align-self: center;
     flex: 1;
     border-radius: 5px;
-    background-color: #5b3acc;
+    background-color: #1D1A17 ;
     transition: background-color 200ms ease-in;
     font-family: Graphik, sans-serif;
     font-size: 15px;
@@ -7785,7 +7788,7 @@ textarea.w-select {
 
 .success-message {
     padding: 50px;
-    letter-spacing: 1px;
+    letter-spacing: -2px;
 }
 
 .counter-image {
@@ -7881,10 +7884,10 @@ textarea.w-select {
     padding-top: 14px;
     padding-bottom: 14px;
     border-radius: 5px;
-    background-color: #5b3acc;
+    background-color: #1D1A17 ;
     box-shadow: none;
     transition: background-color 200ms ease-in, box-shadow 200ms ease-in;
-    letter-spacing: 1px;
+    letter-spacing: -2px;
 }
 
 .checkbox-field {
@@ -7957,7 +7960,7 @@ textarea.w-select {
 }
 
 .form07_link {
-    color: #5b3acc;
+    color: #1D1A17 ;
     font-size: 13px;
     font-weight: 700;
 }
@@ -8089,11 +8092,11 @@ textarea.w-select {
 }
 
 .span-blue {
-    color: #5b3acc;
+    color: #1D1A17 ;
 }
 
 .link {
-    color: #5b3acc;
+    color: #1D1A17 ;
 }
 
 .link-block-12 {
@@ -8166,7 +8169,7 @@ textarea.w-select {
     font-size: 1.1rem;
     line-height: 1.8rem;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: -2px;
     text-transform: uppercase;
 }
 
@@ -8176,7 +8179,7 @@ textarea.w-select {
     font-size: 1.1rem;
     line-height: 1.8rem;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: -2px;
 }
 
 .text-block-24.p-final {
@@ -8186,7 +8189,7 @@ textarea.w-select {
     font-size: 1.1rem;
     line-height: 1.8rem;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: -2px;
 }
 
 .portfolio {
@@ -10649,7 +10652,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     }
 
     .titlu {
-        font-family: 'Graphik web', sans-serif;
+        font-family: "Konnect ExtraBold";
         font-size: 50px;
         line-height: 70px;
     }
@@ -13232,7 +13235,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     }
 
     .titlu {
-        font-family: 'Graphik web', sans-serif;
+        font-family: "Konnect ExtraBold";
         font-size: 30px;
     }
 
@@ -13444,7 +13447,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     .text-block-24 {
         width: 320px;
         padding-top: 0px;
-        font-family: 'Graphik web', sans-serif;
+        font-family: "Konnect ExtraBold";
         font-size: 25px;
         line-height: 35px;
     }
