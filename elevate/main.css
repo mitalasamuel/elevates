@@ -5747,8 +5747,10 @@ textarea.w-select {
     width: 850px;
     height: 80px;
     margin-top: 0px;
+    letter-spacing: -2px;
     margin-bottom: 0px;
-    font-family: Graphik, sans-serif;
+    font-family: "Konnect ExtraBold";
+    /* font-family: Graphik, sans-serif; */
     color: #fff;
     font-size: 60px;
     line-height: 90px;
