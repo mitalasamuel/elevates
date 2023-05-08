@@ -519,6 +519,7 @@ fieldset[disabled] .w-input,
 fieldset[disabled] .w-select {
     cursor: not-allowed
 }
+
 /* 
 .w-input[disabled]:not(.w-input-disabled),
 .w-select[disabled]:not(.w-input-disabled),
@@ -533,6 +534,7 @@ textarea.w-input,
 textarea.w-select {
     height: auto
 }
+
 /* 
 .w-select {
     background-color: #f3f3f3
@@ -2259,6 +2261,7 @@ textarea.w-select {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 /* 
 .w-checkbox-input--inputType-custom.w--redirected-focus {
     box-shadow: 0px 0px 3px 1px #FFF2D7;
@@ -5755,12 +5758,15 @@ textarea.w-select {
     font-size: 60px;
     line-height: 90px;
     font-weight: 100;
-}.despre-text1 {
-     margin-top: 0px;
+}
+
+.despre-text1 {
+    margin-top: 0px;
     letter-spacing: -1px;
     position: absolute;
     left: 141px;
-    top: 0px;    font-family: "Konnect ExtraBold";
+    top: 0px;
+    font-family: "Konnect ExtraBold";
     /* font-family: Graphik, sans-serif; */
     color: #fff;
     font-size: 30px;
@@ -5810,7 +5816,9 @@ textarea.w-select {
     width: 850px;
     height: auto;
     font-size: 60px;
+    font-family: "Konnect ExtraBold";
     line-height: 80px;
+    font-weight: 700;
 }
 
 .despre-text.home {
@@ -6638,7 +6646,7 @@ textarea.w-select {
     position: absolute;
     left: 141px;
     top: 0px;
-    font-family: Graphik, sans-serif;
+    font-family: "Konnect ExtraBold";
     color: #fff;
     font-size: 30px;
     line-height: 1.3em;
@@ -6771,7 +6779,6 @@ textarea.w-select {
     font-size: 12px;
     line-height: 2em;
     font-weight: 400;
-    letter-spacing: -2px;
 }
 
 .nav-social-address.head {
@@ -7139,7 +7146,6 @@ textarea.w-select {
     position: relative;
     font-size: 0.9em;
     font-weight: 600;
-    letter-spacing: -2px;
     text-transform: uppercase;
 }
 
@@ -7516,7 +7522,6 @@ textarea.w-select {
     font-size: 10px;
     line-height: 10px;
     font-weight: 500;
-    letter-spacing: -2px;
     text-transform: uppercase;
 }
 
@@ -7531,7 +7536,6 @@ textarea.w-select {
     font-size: 10px;
     line-height: 20px;
     font-weight: 500;
-    letter-spacing: -2px;
     text-transform: uppercase;
 }
 
@@ -7720,7 +7724,7 @@ textarea.w-select {
 
 .text-block-22 {
     font-family: Graphik, sans-serif;
-    color: #1D1A17 ;
+    color: #1D1A17;
     font-weight: 400;
 }
 
@@ -7768,7 +7772,7 @@ textarea.w-select {
     align-self: center;
     flex: 1;
     border-radius: 5px;
-    background-color: #1D1A17 ;
+    background-color: #1D1A17;
     transition: background-color 200ms ease-in;
     font-family: Graphik, sans-serif;
     font-size: 15px;
@@ -7800,7 +7804,6 @@ textarea.w-select {
 
 .success-message {
     padding: 50px;
-    letter-spacing: -2px;
 }
 
 .counter-image {
@@ -7834,7 +7837,6 @@ textarea.w-select {
     font-family: Graphik, sans-serif;
     color: #5b617c;
     font-size: 15px;
-    text-indent: -2px;
 }
 
 .previous-button:hover {
@@ -7896,7 +7898,7 @@ textarea.w-select {
     padding-top: 14px;
     padding-bottom: 14px;
     border-radius: 5px;
-    background-color: #1D1A17 ;
+    background-color: #1D1A17;
     box-shadow: none;
     transition: background-color 200ms ease-in, box-shadow 200ms ease-in;
     letter-spacing: -2px;
@@ -7972,7 +7974,7 @@ textarea.w-select {
 }
 
 .form07_link {
-    color: #1D1A17 ;
+    color: #1D1A17;
     font-size: 13px;
     font-weight: 700;
 }
@@ -8104,11 +8106,11 @@ textarea.w-select {
 }
 
 .span-blue {
-    color: #1D1A17 ;
+    color: #1D1A17;
 }
 
 .link {
-    color: #1D1A17 ;
+    color: #1D1A17;
 }
 
 .link-block-12 {
@@ -12738,7 +12740,8 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
         font-weight: 400;
     }
 
-    .link-block-8,.sectiune-cheie.home1 {
+    .link-block-8,
+    .sectiune-cheie.home1 {
         height: 60vh;
         margin-top: -100px;
         background-position: 50% 100%;
