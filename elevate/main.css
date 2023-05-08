@@ -1513,7 +1513,7 @@ textarea.w-select {
 .w-lightbox-container {
     height: 100%;
     overflow: auto;
-    -webkit-overflow-scrolling: touch
+    /* -webkit-overflow-scrolling: touch */
 }
 
 .w-lightbox-content {
@@ -9662,7 +9662,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
         background-position: 0px 0px, 50% 50%;
         background-size: auto, cover;
         background-repeat: repeat, no-repeat;
-        background-attachment: scroll, fixed;
+        /* background-attachment: scroll, fixed; */
     }
 
     .project-title-hero {
@@ -10306,7 +10306,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     .link-block-8 {
         padding-top: 0px;
         background-size: cover;
-        background-attachment: scroll;
+        /* background-attachment: scroll; */
     }
 
     .link-block-8.home {
@@ -12746,7 +12746,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
         height: 60vh;
         margin-top: -100px;
         background-position: 50% 100%;
-        background-attachment: scroll;
+        /* background-attachment: scroll; */
     }
 
     .div-block-205 {
