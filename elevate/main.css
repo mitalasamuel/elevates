@@ -6377,7 +6377,7 @@ textarea.w-select {
 
 .heading-imagine {
     margin-top: 0px;
-    font-family: Graphik, sans-serif;
+    font-family: "Konnect ExtraBold";
     color: #fff;
     font-size: 1.4rem;
     line-height: 1.6em;
@@ -9320,6 +9320,7 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
         height: auto;
         font-size: 75px;
         line-height: 90px;
+        letter-spacing: -1px;
     }
 
     .despre-text.desktop2 {
@@ -13102,7 +13103,6 @@ html.w-mod-js *[data-ix="start-hiddner-4"] {
     }
 
     .menu-item-text {
-        font-family: Graphik, sans-serif;
         font-size: 1.8em;
         font-weight: 300;
     }
